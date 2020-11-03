@@ -1,9 +1,419 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
     tools:context=".Science">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="90sp"
+            android:textColor="@color/white"
+            android:gravity="right"/>
+
+        <EditText
+            android:id="@+id/intext2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:paddingBottom="0sp"
+            android:text="0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="3dp">
+
+            <Button
+                android:id="@+id/s_but1"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="AC"
+                android:textSize="35sp"
+                android:background="@drawable/butcircled"/>
+
+            <Button
+                android:id="@+id/s_but2"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="+/-"
+                android:textSize="35sp"
+                android:background="@drawable/butcircled"/>
+
+            <Button
+                android:id="@+id/s_but3"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="%"
+                android:textSize="35sp"
+                android:background="@drawable/butcircled"/>
+
+            <Button
+                android:id="@+id/s_but4"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="÷"
+                android:textSize="35sp"
+                android:background="@drawable/butcircleo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_margin="3dp">
+
+            <Button
+                android:id="@+id/s_but5"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="7"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but6"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="8"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but7"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="9"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but8"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="×"
+                android:textSize="35sp"
+                android:background="@drawable/butcircleo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+
+            <Button
+                android:id="@+id/s_but9"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="4"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but10"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="5"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but11"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="6"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but12"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="-"
+                android:textSize="35sp"
+                android:background="@drawable/butcircleo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+
+            <Button
+                android:id="@+id/s_but13"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but14"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="2"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but15"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="3"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but16"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="+"
+                android:textSize="35sp"
+                android:background="@drawable/butcircleo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:orientation="horizontal"
+            android:layout_margin="3dp">
+
+            <Button
+                android:id="@+id/s_but17"
+                android:layout_width="190dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="0"
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but18"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="."
+                android:textSize="35sp"
+                android:background="@drawable/butcirclel"/>
+
+            <Button
+                android:id="@+id/s_but19"
+                android:layout_width="95dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:text="="
+                android:textSize="35sp"
+                android:background="@drawable/butcircleo"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/s_but20"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="("
+                android:textSize="20sp"
+                android:background="@drawable/butcircled"/>
+
+            <Button
+                android:id="@+id/s_but21"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text=")"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but22"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="x^y"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled"/>
+
+            <Button
+                android:id="@+id/s_but23"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="e^x"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but24"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="10^x"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but25"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="1/x"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but26"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="y√x"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/s_but27"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="ln"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but28"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="log"
+                android:textSize="15sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but29"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="sin"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but30"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="cos"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but31"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="tan"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but32"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="e"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+            <Button
+                android:id="@+id/s_but33"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="π"
+                android:textSize="20sp"
+                android:background="@drawable/butcircled" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/s_but_c1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/s_but_c2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/darkgrey"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/s_but_c3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/s_but_c4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Button" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
