@@ -16,22 +16,23 @@
         android:background="@color/black">    <TextView
         android:id="@+id/text1"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="70dp"
         android:gravity="right"
         android:textColor="@color/white"
-        android:textSize="90sp" />
+        android:textSize="65sp"
+        android:text="a"/>
 
         <EditText
             android:id="@+id/intext1"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:ems="10"
             android:gravity="right"
             android:inputType="textPersonName"
             android:paddingBottom="0sp"
             android:text="0"
             android:textColor="@color/white"
-            android:textSize="50sp" />
+            android:textSize="30sp" />
 
         <LinearLayout
             android:layout_width="match_parent"

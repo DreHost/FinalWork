@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:orientation="vertical"
-    tools:context=".Economics">
+    tools:context=".Financial">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,20 +16,20 @@
         android:background="@color/black">
 
         <TextView
-            android:id="@+id/text2"
+            android:id="@+id/text3"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:textSize="90sp"
+            android:layout_height="70dp"
+            android:textSize="65sp"
             android:textColor="@color/white"
             android:gravity="right"/>
 
         <EditText
-            android:id="@+id/intext2"
+            android:id="@+id/intext3"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="50sp"
+            android:textSize="30sp"
             android:textColor="@color/white"
             android:gravity="right"
             android:paddingBottom="0sp"
@@ -41,7 +41,7 @@
             android:layout_margin="3dp">
 
             <Button
-                android:id="@+id/s_but1"
+                android:id="@+id/e_but1"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -50,7 +50,7 @@
                 android:background="@drawable/butcircled"/>
 
             <Button
-                android:id="@+id/s_but2"
+                android:id="@+id/e_but2"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -59,7 +59,7 @@
                 android:background="@drawable/butcircled"/>
 
             <Button
-                android:id="@+id/s_but3"
+                android:id="@+id/e_but3"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -68,7 +68,7 @@
                 android:background="@drawable/butcircled"/>
 
             <Button
-                android:id="@+id/s_but4"
+                android:id="@+id/e_but4"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -83,7 +83,7 @@
             android:layout_margin="3dp">
 
             <Button
-                android:id="@+id/s_but5"
+                android:id="@+id/e_but5"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -92,7 +92,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but6"
+                android:id="@+id/e_but6"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -101,7 +101,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but7"
+                android:id="@+id/e_but7"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -110,7 +110,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but8"
+                android:id="@+id/e_but8"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -126,7 +126,7 @@
             android:layout_margin="3dp">
 
             <Button
-                android:id="@+id/s_but9"
+                android:id="@+id/e_but9"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -135,7 +135,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but10"
+                android:id="@+id/e_but10"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -144,7 +144,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but11"
+                android:id="@+id/e_but11"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -153,7 +153,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but12"
+                android:id="@+id/e_but12"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -169,7 +169,7 @@
             android:layout_margin="3dp">
 
             <Button
-                android:id="@+id/s_but13"
+                android:id="@+id/e_but13"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -178,7 +178,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but14"
+                android:id="@+id/e_but14"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -187,7 +187,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but15"
+                android:id="@+id/e_but15"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -196,7 +196,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but16"
+                android:id="@+id/e_but16"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -212,7 +212,7 @@
             android:layout_margin="3dp">
 
             <Button
-                android:id="@+id/s_but17"
+                android:id="@+id/e_but17"
                 android:layout_width="190dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -221,7 +221,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but18"
+                android:id="@+id/e_but18"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -230,7 +230,7 @@
                 android:background="@drawable/butcirclel"/>
 
             <Button
-                android:id="@+id/s_but19"
+                android:id="@+id/e_but19"
                 android:layout_width="95dp"
                 android:layout_height="66dp"
                 android:layout_gravity="center"
@@ -246,8 +246,8 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/s_but20"
-                android:layout_width="55dp"
+                android:id="@+id/e_but20"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:text="("
@@ -255,8 +255,8 @@
                 android:background="@drawable/butcircled"/>
 
             <Button
-                android:id="@+id/s_but21"
-                android:layout_width="55dp"
+                android:id="@+id/e_but21"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:text=")"
@@ -264,8 +264,8 @@
                 android:background="@drawable/butcircled" />
 
             <Button
-                android:id="@+id/s_but22"
-                android:layout_width="55dp"
+                android:id="@+id/e_but22"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:text="x^y"
@@ -273,26 +273,8 @@
                 android:background="@drawable/butcircled"/>
 
             <Button
-                android:id="@+id/s_but23"
-                android:layout_width="55dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:text="e^x"
-                android:textSize="20sp"
-                android:background="@drawable/butcircled" />
-
-            <Button
-                android:id="@+id/s_but24"
-                android:layout_width="55dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:text="10^x"
-                android:textSize="20sp"
-                android:background="@drawable/butcircled" />
-
-            <Button
-                android:id="@+id/s_but25"
-                android:layout_width="55dp"
+                android:id="@+id/e_but23"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:text="1/x"
@@ -300,8 +282,8 @@
                 android:background="@drawable/butcircled" />
 
             <Button
-                android:id="@+id/s_but26"
-                android:layout_width="55dp"
+                android:id="@+id/e_but24"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:text="y√x"
@@ -316,65 +298,47 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/s_but27"
-                android:layout_width="55dp"
+                android:id="@+id/e_but25"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
-                android:text="ln"
+                android:text="N"
                 android:textSize="20sp"
                 android:background="@drawable/butcircled" />
 
             <Button
-                android:id="@+id/s_but28"
-                android:layout_width="55dp"
+                android:id="@+id/e_but26"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
-                android:text="log"
+                android:text="I/Y"
                 android:textSize="15sp"
                 android:background="@drawable/butcircled" />
 
             <Button
-                android:id="@+id/s_but29"
-                android:layout_width="55dp"
+                android:id="@+id/e_but27"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
-                android:text="sin"
+                android:text="PV"
                 android:textSize="20sp"
                 android:background="@drawable/butcircled" />
 
             <Button
-                android:id="@+id/s_but30"
-                android:layout_width="55dp"
+                android:id="@+id/e_but28"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
-                android:text="cos"
+                android:text="FV"
                 android:textSize="20sp"
                 android:background="@drawable/butcircled" />
 
             <Button
-                android:id="@+id/s_but31"
-                android:layout_width="55dp"
+                android:id="@+id/e_but29"
+                android:layout_width="77dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
-                android:text="tan"
-                android:textSize="20sp"
-                android:background="@drawable/butcircled" />
-
-            <Button
-                android:id="@+id/s_but32"
-                android:layout_width="55dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:text="e"
-                android:textSize="20sp"
-                android:background="@drawable/butcircled" />
-
-            <Button
-                android:id="@+id/s_but33"
-                android:layout_width="55dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center"
-                android:text="π"
+                android:text="PMT"
                 android:textSize="20sp"
                 android:background="@drawable/butcircled" />
 
@@ -387,21 +351,21 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/s_but_c1"
+                android:id="@+id/f_but_c1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Button" />
 
             <Button
-                android:id="@+id/s_but_c2"
+                android:id="@+id/f_but_c2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="Button" />
 
             <Button
-                android:id="@+id/s_but_c3"
+                android:id="@+id/f_but_c3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:background="@color/darkgrey"
@@ -409,7 +373,7 @@
                 android:text="Button" />
 
             <Button
-                android:id="@+id/s_but_c4"
+                android:id="@+id/f_but_c4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
