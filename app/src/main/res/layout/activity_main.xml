@@ -13,16 +13,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_margin="10dp"
-        android:background="@color/black">    <TextView
+        android:background="@color/black">
+
+        <TextView
         android:id="@+id/text1"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:gravity="right"
         android:textColor="@color/white"
-        android:textSize="65sp"
-        android:text="a"/>
+        android:textSize="65sp"/>
 
-        <EditText
+        <TextView
             android:id="@+id/intext1"
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -46,7 +47,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcircled"
                 android:text="AC"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn1"/>
 
             <Button
                 android:id="@+id/m_but2"
@@ -55,7 +57,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcircled"
                 android:text="+/-"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn2"/>
 
             <Button
                 android:id="@+id/m_but3"
@@ -64,7 +67,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcircled"
                 android:text="%"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn3"/>
 
             <Button
                 android:id="@+id/m_but4"
@@ -73,7 +77,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcircleo"
                 android:text="÷"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn4"/>
         </LinearLayout>
 
         <LinearLayout
@@ -88,7 +93,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="7"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn5"/>
 
             <Button
                 android:id="@+id/m_but6"
@@ -97,7 +103,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="8"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn6"/>
 
             <Button
                 android:id="@+id/m_but7"
@@ -106,7 +113,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="9"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn7"/>
 
             <Button
                 android:id="@+id/m_but8"
@@ -115,7 +123,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcircleo"
                 android:text="×"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn8"/>
         </LinearLayout>
 
         <LinearLayout
@@ -131,7 +140,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="4"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn9"/>
 
             <Button
                 android:id="@+id/m_but10"
@@ -140,7 +150,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="5"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn10"/>
 
             <Button
                 android:id="@+id/m_but11"
@@ -149,7 +160,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="6"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn11"/>
 
             <Button
                 android:id="@+id/m_but12"
@@ -158,7 +170,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcircleo"
                 android:text="-"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn12"/>
         </LinearLayout>
 
         <LinearLayout
@@ -174,7 +187,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="1"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn13"/>
 
             <Button
                 android:id="@+id/m_but14"
@@ -183,7 +197,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="2"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn14"/>
 
             <Button
                 android:id="@+id/m_but15"
@@ -192,7 +207,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="3"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn15"/>
 
             <Button
                 android:id="@+id/m_but16"
@@ -201,7 +217,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcircleo"
                 android:text="+"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn16"/>
         </LinearLayout>
 
         <LinearLayout
@@ -217,7 +234,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="0"
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn17"/>
 
             <Button
                 android:id="@+id/m_but18"
@@ -226,7 +244,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcirclel"
                 android:text="."
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn18"/>
 
             <Button
                 android:id="@+id/m_but19"
@@ -235,7 +254,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/butcircleo"
                 android:text="="
-                android:textSize="35sp" />
+                android:textSize="35sp"
+                android:onClick="btn19"/>
 
         </LinearLayout>
 
