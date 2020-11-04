@@ -139,6 +139,16 @@ public class Science extends AppCompatActivity {
             f = Double.valueOf(oup.getText().toString());
             inp.setText("0");
             m = 4;
+        }else if(m==6){
+            f = Math.pow(f,Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 4;
+        }else if(m==7){
+            f = Math.pow(f,1/Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 4;
         }
     }
 
@@ -199,6 +209,17 @@ public class Science extends AppCompatActivity {
             }
         }else if(m==5){
             f = Double.valueOf(oup.getText().toString());
+            inp.setText("0");
+            m = 3;
+        }else if(m==6){
+            f = Math.pow(f,Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 3;
+        }
+        else if(m==7){
+            f = Math.pow(f,1/Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
             inp.setText("0");
             m = 3;
         }
@@ -262,6 +283,17 @@ public class Science extends AppCompatActivity {
             f = Double.valueOf(oup.getText().toString());
             inp.setText("0");
             m = 2;
+        }else if(m==6){
+            f = Math.pow(f,Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 2;
+        }
+        else if(m==7){
+            f = Math.pow(f,1/Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 2;
         }
     }
     public void btn13(View v){
@@ -323,6 +355,17 @@ public class Science extends AppCompatActivity {
             f = Double.valueOf(oup.getText().toString());
             inp.setText("0");
             m = 1;
+        }else if(m==6){
+            f = Math.pow(f,Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 1;
+        }
+        else if(m==7){
+            f = Math.pow(f,1/Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 1;
         }
     }
     public void btn17(View v){
@@ -369,42 +412,191 @@ public class Science extends AppCompatActivity {
                 inp.setText("0");
                 m = 5;
             }
+        }else if(m==6){
+            f = Math.pow(f,Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 5;
+        }
+        else if(m==7){
+            f = Math.pow(f,1/Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 5;
         }
     }
     public void btn20(View v) {
-
+        if(m==0){
+            f = Double.valueOf(inp.getText().toString());
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 6;
+        }else if(m==1){
+            f = f + Double.valueOf(inp.getText().toString());
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 6;
+        }else if(m==2) {
+            f = f - Double.valueOf(inp.getText().toString());
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 6;
+        }else if(m==3) {
+            f = f * Double.valueOf(inp.getText().toString());
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 6;
+        }else if(m==4) {
+            if(Double.valueOf(inp.getText().toString())==0){
+                oup.setText("Error!");
+                m=0;
+            }else {
+                f = f / Double.valueOf(inp.getText().toString());
+                oup.setText(String.valueOf(f));
+                inp.setText("0");
+                m = 6;
+            }
+        }else if(m==6){
+            f = Math.pow(f,Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 6;
+        }
+        else if(m==7){
+            f = Math.pow(f,1/Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 6;
+        }
     }
     public void btn21(View v) {
-
+        if(Double.valueOf(inp.getText().toString())==0){
+            f = Math.pow(Math.E, Double.valueOf(oup.getText().toString()));
+            oup.setText(String.valueOf(f));
+        }else{
+            f = Math.pow(Math.E, Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+        }
     }
     public void btn22(View v) {
-
+        if(Double.valueOf(inp.getText().toString())==0){
+            f = Math.pow(10, Double.valueOf(oup.getText().toString()));
+            oup.setText(String.valueOf(f));
+        }else{
+            f = Math.pow(10, Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+        }
     }
     public void btn23(View v) {
-
+        if(Double.valueOf(inp.getText().toString())==0){
+            f = 1 / Double.valueOf(oup.getText().toString());
+            oup.setText(String.valueOf(f));
+        }else{
+            f = 1 / Double.valueOf(inp.getText().toString());
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+        }
     }
     public void btn24(View v) {
-
+        if(m==0){
+            f = Double.valueOf(inp.getText().toString());
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 7;
+        }else if(m==1){
+            f = f + Double.valueOf(inp.getText().toString());
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 7;
+        }else if(m==2) {
+            f = f - Double.valueOf(inp.getText().toString());
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 7;
+        }else if(m==3) {
+            f = f * Double.valueOf(inp.getText().toString());
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 7;
+        }else if(m==4) {
+            if(Double.valueOf(inp.getText().toString())==0){
+                oup.setText("Error!");
+                m=0;
+            }else {
+                f = f / Double.valueOf(inp.getText().toString());
+                oup.setText(String.valueOf(f));
+                inp.setText("0");
+                m = 7;
+            }
+        }else if(m==6){
+            f = Math.pow(f,Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 7;
+        }
+        else if(m==7){
+            f = Math.pow(f,1/Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+            m = 7;
+        }
     }
     public void btn25(View v) {
-
+        inp.setText(String.valueOf(Math.PI));
     }
     public void btn26(View v) {
-
+        if(Double.valueOf(inp.getText().toString())==0){
+            f = Math.log(Double.valueOf(oup.getText().toString()));
+            oup.setText(String.valueOf(f));
+        }else {
+            f = Math.log(Double.valueOf(inp.getText().toString()));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+        }
     }
     public void btn27(View v) {
-
+        if(Double.valueOf(inp.getText().toString())==0){
+            f = Math.log(Double.valueOf(oup.getText().toString())) / Math.log(10);
+            oup.setText(String.valueOf(f));
+        }else {
+            f = Math.log(Double.valueOf(inp.getText().toString())) / Math.log(10);
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+        }
     }
     public void btn28(View v) {
-
+        if(Double.valueOf(inp.getText().toString())==0){
+            f = Math.sin(Math.PI * (Double.valueOf(oup.getText().toString()) / 180));
+            oup.setText(String.valueOf(f));
+        }else {
+            f = Math.sin(Math.PI * (Double.valueOf(inp.getText().toString()) / 180));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+        }
     }
     public void btn29(View v) {
-
+        if(Double.valueOf(inp.getText().toString())==0){
+            f = Math.cos(Math.PI * (Double.valueOf(oup.getText().toString()) / 180));
+            oup.setText(String.valueOf(f));
+        }else {
+            f = Math.cos(Math.PI * (Double.valueOf(inp.getText().toString()) / 180));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+        }
     }
     public void btn30(View v) {
-
+        if(Double.valueOf(inp.getText().toString())==0){
+            f = Math.tan(Math.PI * (Double.valueOf(oup.getText().toString()) / 180));
+            oup.setText(String.valueOf(f));
+        }else {
+            f = Math.tan(Math.PI * (Double.valueOf(inp.getText().toString()) / 180));
+            oup.setText(String.valueOf(f));
+            inp.setText("0");
+        }
     }
     public void btn31(View v) {
-
+        inp.setText(String.valueOf(Math.E));
     }
 }
