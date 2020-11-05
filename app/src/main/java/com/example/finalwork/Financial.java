@@ -7,6 +7,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
 public class Financial extends AppCompatActivity {
 
     Button but_c1,but_c2,but_c3;
@@ -15,6 +20,8 @@ public class Financial extends AppCompatActivity {
     double f=0;
     int m = 0, pm = 0, fm = 0,am = 0;
     double pv=0,fv=0,i=0,n=0,a=0;
+    SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,7 +99,6 @@ public class Financial extends AppCompatActivity {
         double a = Double.valueOf(inp.getText().toString());
         a = -a;
         inp.setText(String.valueOf(a));
-        m=0;
     }
 
     public void btn3(View v){
@@ -563,6 +569,15 @@ public class Financial extends AppCompatActivity {
             oup.setText(String.valueOf(pv));
             fm=0;
         }
+        String data = df.format(new Date());
+        List<String> mlist = new ArrayList<String>();
+        List<Item> rlist = new ArrayList<Item>();
+
+        Item ritem = new Item(data, "PV", String.valueOf(f));
+        rlist.add(ritem);
+
+        DBManager dbManager = new DBManager(Financial.this);
+        dbManager.addAll(rlist);
     }
     public void btn28(View v) {
         if(pm==0){
@@ -583,6 +598,15 @@ public class Financial extends AppCompatActivity {
             oup.setText(String.valueOf(pv));
             pm=0;
         }
+        String data = df.format(new Date());
+        List<String> mlist = new ArrayList<String>();
+        List<Item> rlist = new ArrayList<Item>();
+
+        Item ritem = new Item(data, "FV", String.valueOf(f));
+        rlist.add(ritem);
+
+        DBManager dbManager = new DBManager(Financial.this);
+        dbManager.addAll(rlist);
     }
     public void btn29(View v) {
         a = Double.valueOf(inp.getText().toString());

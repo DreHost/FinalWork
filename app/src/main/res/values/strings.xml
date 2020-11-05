@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FinalWork</string>
+    <string name="c1">Common</string>
+    <string name="c2">Science</string>
+    <string name="c3">Financial</string>
+    <string name="c4">History</string>
 </resources>

@@ -7,6 +7,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
 public class Science extends AppCompatActivity {
 
     Button but_c1,but_c2,but_c3;
@@ -14,6 +19,7 @@ public class Science extends AppCompatActivity {
     TextView oup,inp;
     double f=0,s=0;
     int m = 0;
+    SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,7 +100,6 @@ public class Science extends AppCompatActivity {
         double a = Double.valueOf(inp.getText().toString());
         a = -a;
         inp.setText(String.valueOf(a));
-        m=0;
     }
 
     public void btn3(View v){
@@ -424,6 +429,15 @@ public class Science extends AppCompatActivity {
             inp.setText("0");
             m = 5;
         }
+        String data = df.format(new Date());
+        List<String> mlist = new ArrayList<String>();
+        List<Item> rlist = new ArrayList<Item>();
+
+        Item ritem = new Item(data, "Science", String.valueOf(f));
+        rlist.add(ritem);
+
+        DBManager dbManager = new DBManager(Science.this);
+        dbManager.addAll(rlist);
     }
     public void btn20(View v) {
         if(m==0){

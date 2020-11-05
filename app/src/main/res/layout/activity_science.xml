@@ -404,7 +404,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/c1" />
 
             <Button
                 android:id="@+id/s_but_c2"
@@ -412,21 +412,21 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@color/darkgrey"
-                android:text="Button" />
+                android:text="@string/c2" />
 
             <Button
                 android:id="@+id/s_but_c3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/c3" />
 
             <Button
                 android:id="@+id/s_but_c4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/c4" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
